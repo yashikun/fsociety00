@@ -1,4 +1,4 @@
-function Invoke-DllInjection
+function Injection-Codiedll
 {
 
     Param (
