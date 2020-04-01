@@ -135,6 +135,10 @@ function Injection-Codiedll
         $Architecture = '{0}' -f (( $IMAGE_FILE_MACHINE[-1..-2] | % { $_.ToString('X2') } ) -join '')
         $StreamingFile.Close()
     
+    
+    
+    
+    
         if (($Architecture -ne '014C') -and ($Architecture -ne '8664'))
         {
             Throw 'Invalid PE header or unsupported architecture.'
